@@ -26,9 +26,9 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
           },
         }}
         initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 1, delay: 0.1 }}
-        viewport={{ once: true }}
+        whileInView="visible" // Animate when the div enters the viewport
+        transition={{ duration: 1, delay: 0.5 }}
+        viewport={{ once: false }}
         className="animate_top mx-auto text-center"
       >
         <div className="mb-4 inline-block rounded-full bg-zumthor px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection">

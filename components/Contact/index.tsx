@@ -53,8 +53,8 @@ const Contact = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
+              viewport={{ once: false}}
+              className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-2/4 xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Send a message
@@ -64,7 +64,7 @@ const Contact = () => {
                 action="https://formbold.com/s/unique_form_id"
                 method="POST"
               >
-                <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
+                <div className="mb-7.5 flex flex-col gap-7.5">
                   <input
                     type="text"
                     placeholder="Full name"
@@ -75,15 +75,16 @@ const Contact = () => {
                     type="email"
                     placeholder="Email address"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    required
                   />
                 </div>
 
                 <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
-                  <input
+                  {/* <input
                     type="text"
                     placeholder="Subject"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
-                  />
+                  /> */}
 
                   <input
                     type="text"
@@ -171,7 +172,7 @@ const Contact = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 2, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
               <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">

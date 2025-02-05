@@ -7,12 +7,7 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/",
   },
-  {
-    id: 2,
-    title: "Features",
-    newTab: false,
-    path: "/#features",
-  },
+ 
   {
     id: 2.1,
     title: "Blog",
@@ -21,57 +16,72 @@ const menuData: Menu[] = [
   },
   {
     id: 2.3,
-    title: "Docs",
+    title: "About",
     newTab: false,
-    path: "/docs",
+    path: "/#ourservices",
   },
   {
     id: 3,
-    title: "Pages",
+    title: "Our Services",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "App Development",
         newTab: false,
         path: "/blog",
       },
       {
         id: 34,
-        title: "Sign In",
+        title: "Web Development",
         newTab: false,
         path: "/auth/signin",
       },
       {
         id: 35,
-        title: "Sign Up",
+        title: "Testing ",
         newTab: false,
         path: "/auth/signup",
       },
+      
+    ],
+  },
+  {
+    id: 3,
+    title: "Resources",
+    newTab: false,
+    submenu: [
+      {
+        id: 31,
+        title: "Careers",
+        newTab: false,
+        path: "/blog",
+      },
+      {
+        id: 34,
+        title: "Testimonials",
+        newTab: false,
+        path: "/auth/signin",
+      },
       {
         id: 35,
-        title: "Docs",
+        title: "Testing ",
         newTab: false,
-        path: "/docs",
+        path: "/auth/signup",
       },
-      {
-        id: 35.1,
-        title: "Support",
-        newTab: false,
-        path: "/support",
-      },
-      {
-        id: 36,
-        title: "404",
-        newTab: false,
-        path: "/error",
-      },
+      
     ],
   },
 
   {
     id: 4,
-    title: "Support",
+    title: "Testimonials",
+    newTab: false,
+    path: "/testimonials",
+  },
+  {
+    id: 5,
+    title: "Contact",
     newTab: false,
     path: "/support",
   },

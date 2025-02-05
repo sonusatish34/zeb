@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 /* third-party libraries CSS */
-
+body {
+  /* font-family: "Poppins", sans-serif !important; */
+}
 .testimonial-01 .swiper-pagination-bullet {
   @apply h-2.5 w-2.5 bg-stroke opacity-100;
 }
@@ -124,4 +126,23 @@ pre {
 
 .active-tab {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
+}
+
+
+/* styles/globals.css */
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust distance */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-upDown {
+  animation: upDown 2s ease-in-out infinite;
 }

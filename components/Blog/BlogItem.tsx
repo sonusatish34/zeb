@@ -24,7 +24,7 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
         initial="hidden"
         whileInView="visible"
         transition={{ duration: 1, delay: 0.5 }}
-        viewport={{ once: true }}
+        viewport={{ once: false}}
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
         <Link href={`/blog/`} className="relative block aspect-[368/239]">

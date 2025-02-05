@@ -25,7 +25,7 @@ const Footer = () => {
                 initial="hidden"
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
-                viewport={{ once: true }}
+                viewport={{ once: false}}
                 className="animate_top w-1/2 lg:w-1/4"
               >
                 <a href="/" className="relative">
@@ -76,7 +76,7 @@ const Footer = () => {
                   initial="hidden"
                   whileInView="visible"
                   transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: false}}
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
@@ -134,7 +134,7 @@ const Footer = () => {
                   initial="hidden"
                   whileInView="visible"
                   transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: false}}
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
@@ -192,7 +192,7 @@ const Footer = () => {
                   initial="hidden"
                   whileInView="visible"
                   transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: false}}
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
@@ -260,7 +260,7 @@ const Footer = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_top"
             >
               <ul className="flex items-center gap-8">
@@ -297,7 +297,7 @@ const Footer = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_top"
             >
               <p>
@@ -320,7 +320,7 @@ const Footer = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_top"
             >
               <ul className="flex items-center gap-5">

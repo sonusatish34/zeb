@@ -25,7 +25,7 @@ const CTA = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
@@ -52,7 +52,7 @@ const CTA = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_right lg:w-[45%]"
             >
               <div className="flex items-center justify-end xl:justify-between">

@@ -25,7 +25,7 @@ const About = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
@@ -56,7 +56,7 @@ const About = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_right md:w-1/2"
             >
               <span className="font-medium uppercase text-black dark:text-white">
@@ -127,7 +127,7 @@ const About = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
@@ -177,7 +177,7 @@ const About = () => {
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
+              viewport={{ once: false}}
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
